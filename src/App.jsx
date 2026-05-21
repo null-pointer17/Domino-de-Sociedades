@@ -84,7 +84,7 @@ function shuffle(arr) {
   return a;
 }
 
-// ─── COMPONENTS ──────────────────────────────────────────────────────────────
+// ─── COMPONENTS ─────────────────────────────────────────────────────────────
 
 function DominoTile({ left, right, onClick, selected, correct, incorrect, disabled }) {
   const soc = SOCIETIES[left];
